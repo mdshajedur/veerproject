@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+/*========Google font============*/
+
+:root {
+	--primary_color: #0771b9;
+	--secondary-color: #5bc5f3;
+}
+*{
+	margin: 0px;
+	padding: 0px;
+	text-decoration: none;
+	outline: 0px;
+	list-style: none;
+	font-family: 'Open Sans', sans-serif;
+}
+h1,h2,h3,h4,h5,h6 {
+	font-family: 'Oswald', sans-serif;
+	margin: 0px;
+	padding: 0px;
+	font-weight: bold;
+	padding-top: 0px;	
+}
+p{
+	margin: 0px;
+	padding: 0px;
+}
+ul,li {
+	margin: 0;
+	padding: 0;
+}
+p{
+	padding-top: 15px;
+	font-size: 18px;
+	font-family: 'Open Sans';
+	padding-bottom: 15px;
+}
+.navbar_padd li {
+	padding-left: 35px;!important
+
+}
+.navbar_padd li a {
+	font-family: 'Poppins', sans-serif;;
+	
+}
+
+/*===========Hero Part Start===========*/
+.hero_part {
+	background: url(../img/header_bg.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+.overlay_shadow {
+	background: rgba(0, 0, 0, 0.6);
+	padding: 90px;
+}
+.main_btn a:hover {
+	padding: 20px 45px;
+	margin-bottom: 5px;
+    color: #fff;
+    margin-bottom: 200px;
+    background: #31D7CE;
+}
+.main_btn a {
+	background: transparent;
+	border: 2px solid #31d7ce;
+    border-radius: 30px;
+    color: #31d7ce;
+    padding: 20px 45px;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 200px;
+}
+.slider_con h1{
+    font-size: 70px;
+    align-tracks: 16px;
+    padding-bottom: 40px;
+    color: #31d7ce;
+    margin-top: 200px;
+    letter-spacing: 20px;
+}
+/*===========Hero Part End===========*/
+
+/*===========About Part Start===========*/
+.about_part {
+	padding: 150px 0;
+
+}
+.main_btn_read a{
+    font-family:'Open Sans' ;
+    font-size: 15px;
+    color: #fff;
+    border: 1px solid #31d7ce;
+    border-radius: 20px;
+    background-color: #0DAC88;
+    padding: 12px 24px;
+}
+/*===========About Part End===============*/
+
+/*===========Service Part Start===========*/
+.service_con_head:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; ;
+}
+.service-img img{
+    color: #fff;
+  	margin-top: 5px;
+    background-color: #23DDB3;
+  	padding: 20px;
+   	border-radius: 10px;
+}
+.service_con p{
+	padding-top: 10px;
+	font-size: 14px;
+	font-family: 'Open Sans';
+}
+/*===========Service Part End===========*/
+
+/*===========Works Part Start===========*/
+.work_part {
+	padding: 150px 0;
+}
+.work_con {
+	position: relative;
+}
+.work_overlay {
+	height: 100%;
+	width: 100%;
+	background: rgba(0, 0, 0, 0.5);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+	left: 0;
+	top: 0;
+	opacity: 0;
+	transition: ease-in .3s;
+}
+.work_overlay i {
+	height: 40px;
+	width: 40px;
+	background: #5bc5f3;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #fff;
+	font-size: 14px;
+}
+.work_con:hover .work_overlay{
+	opacity: 1;
+} 
+/*===========Works Part End===========*/
+
+/*===========Slider Part Start===========*/
+.slider_part {
+	background: url(../img/slider_1.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	padding: 45px;
+}
+/*===========Slider Part End===========*/
+
+/*===========Blog Part Start===========*/
+.blog_part {
+	padding: 150px 0;
+}
+.blog_con h4 {
+	font-weight: bold;
+}
+/*===========Blog Part End===========*/
+
+/*===========work Part Start===========*/
+.count_part{
+	background: url(../img/work_1.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	padding: 50px;
+	
+}
+.read_more{
+	background-color: #4BE694;
+	color: #fff;
+	border-radius: 30px;
+	margin-left: 5px;
+}
+/*===========work Part End===========*/
+/*===========Contact Part Start===========*/
+.contact_part {
+	background-color: #000;
+	height: 353px;
+	color: #fff;
+}
+.contact_img img {
+	margin-top: 135px;
+	margin-bottom: 10px;
+}
+.contact_con {
+	margin-top: 35px;
+	padding-bottom: 10px;
+}
+.contact_home img {
+	width: 23px;
+	padding-top: 20px;
+}
+.contact_phone img {
+	width: 23px;
+	padding-top: 51px;
+}
+.contact_con P{
+	font-size: 14px;s
+}
+/*===========Contact Part End===========*/
